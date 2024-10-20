@@ -11,6 +11,8 @@
 
 # git-commands
 
+****
+
 ```bash
 git checkout --orphan new_branch
 git add . 
@@ -18,6 +20,17 @@ git commit -m "new_commit"
 git branch -D main
 git branch -m main
 git push -f origin main
+```
+
+  <br>
+
+```bash
+git lfs install
+git lfs track "*.unitypackage"
+git lfs push --all origin main
+git add .
+git commit -m "..."
+git push -u origin main
 ```
 
 <br>
